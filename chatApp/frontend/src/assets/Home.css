@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+/* ::selection {
+    color: #000000;
+
+} */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    height: fit-content;
+    width: 30vw;
+    background: #fff;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 2px;
+    border-Width: 1px;
+
+}
+
+.box h1 {
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: center;
+
+}
+
+.registerBox {
+    height: fit-content;
+    background-color: #fff;
+    width: 40%;
+    display: flex;
+    /* align-items:center;
+    justify-content: center; */
+    flex-direction: column;
+    padding: 4px;
+    border-radius: 2px;
+
+
+}
+
+.headerTab {
+    width: 100%;
+    height: fit-content;
+    padding: 4px;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonTab {
+    background: none;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+form {
+    width: 100%;
+    gap: .5vw;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    justify-content: start;
+
+}
+
+input {
+    font-size: 1vw;
+    width: 80%;
+    padding: 5px 1px 5px 1px;
+    font-weight: 600;
+    outline-color: rgba(0, 60, 255, 0.501);
+
+
+}
+
+
+button {
+    margin-top: 2px;
+    background-color: #0caeea;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-size: 1.5vw;
+    font-weight: 500;
+
+}
+
+.showPassword {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
